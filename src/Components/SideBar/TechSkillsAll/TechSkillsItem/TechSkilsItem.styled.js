@@ -1,7 +1,12 @@
 import styled from '@emotion/styled';
 
 export const TechSkillsItem = styled.li`
-     color: #609bf5;
+    color: #609bf5;
+    margin-left: 6px;
+    &:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    
 `
 export const TechSkillsDescription = styled.span`
     color: #161D2A;
@@ -10,4 +15,5 @@ export const TechSkillsDescription = styled.span`
     font-size: 14px;
     line-height: 24px;
     max-width: 300px;
+    
 `

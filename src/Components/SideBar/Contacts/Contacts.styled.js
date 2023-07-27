@@ -28,10 +28,12 @@ export const Item = styled.a`
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
- 
     align-items: center;
     gap: 15px;
     :hover, :focus{
         color: #3F49A5;
+    }
+    &:not(:last-child) {
+        margin-bottom: 12px;
     }
 `

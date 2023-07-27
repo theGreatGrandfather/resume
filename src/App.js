@@ -1,4 +1,4 @@
-import React, { Children }  from 'react';
+import React from 'react';
 import './App.css';
 import Wrapper from './Components/Wrapper/Wrapper';
 import Main from './Components/MainContent/MainContent';

@@ -10,6 +10,7 @@ export const Title = styled.h3`
     line-height: 27px;
     color: #000000;
     padding-bottom: 8px;
+    margin-top: 36px;
 `
 export const WorkExpirionsPlace = styled.div`
     margin-bottom: 16px;
@@ -20,6 +21,8 @@ export const JobTitle = styled.h4`
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
 `
 export const WorkExpirionsTime = styled.p`
     font-style: normal;
@@ -43,14 +46,14 @@ export const WorkExpirionsCompany = styled.span`
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #6D9BF5;
+    color: #000000;
 `
 export const EducationPlace = styled.h3`
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #6D9BF5;
+    color: #000000;
     margin-top: 12px;
 `
 export const Profession = styled.p`

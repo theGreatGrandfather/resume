@@ -6,7 +6,7 @@ const Main = ( {children} ) => {
         <MainContent>
             <AboutMeContainer>
                 <MyProf>
-                    Objective: Intern/ junior FrontEnd developer
+                    Objective: Junior FrontEnd developer
                 </MyProf>
                 <Name>
                     Oleksandr Pradidenko  

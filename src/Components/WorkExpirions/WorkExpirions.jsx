@@ -42,21 +42,32 @@ const WorkExpirions = () => {
                     </WorkExpirionsTime>
             </WorkExpirionsPlace>
             <WorkExpirionsPlace>
-                <JobTitle>
+                <Title>
                     Education 
-                    </JobTitle>
-                    <EducationPlace>
-                        Volodymyr Vynnychenko Kirovohradskyi state pedagogical
-                            University
-                    </EducationPlace>
-                
+                </Title>
+                <EducationPlace>
+                    IT school GOIT
+                </EducationPlace>
+                <Profession>
+                    Full Stack Developer
+                </Profession>
+                <WorkExpirionsTime>
+                    Feb 2023 - Dec 2023
+                </WorkExpirionsTime>
+            </WorkExpirionsPlace>
+            <WorkExpirionsPlace>
+                <EducationPlace>
+                    Volodymyr Vynnychenko Kirovohradskyi state pedagogical
+                        University
+                </EducationPlace>
                 <Profession>
                     Science of law
                 </Profession>
                 <WorkExpirionsTime>
-                        September 2011 - June 2015
-                    </WorkExpirionsTime>
+                    September 2011 - June 2015
+                </WorkExpirionsTime>
             </WorkExpirionsPlace>
+            
         </Container>);
 }
 

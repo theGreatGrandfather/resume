@@ -1,31 +1,37 @@
-import { SkillsText } from './SoftSkils.styled';
-import { TechSkillsContainer, Title } from '../TechSkillsAll.styled';
+import { TechSkillsContainer, Title, SkillsList } from '../TechSkillsAll.styled';
+import {SkillsText} from './SoftSkils.styled'
+import { TechSkillsItems } from '../TechSkillsItem/TechSkilsItem'
 
-export const SoftSkils = () => {
+export const SoftSkils = ({ skills }) => {
     return (
-        <><TechSkillsContainer>
-            <Title>
-                Soft Skills
-            </Title>
-            <SkillsText>
-                I am organized, resposible and good team
-                player. I posses strong analytical skills, ability to learn new task quickly and
-                effectively. Am great at multitasking and can to work with volume data.
-            </SkillsText>
-
-
-        </TechSkillsContainer><TechSkillsContainer>
+        <>
+            <TechSkillsContainer>
                 <Title>
-                    Languages Skills
+                    Soft Skills
+                </Title>
+                <SkillsList>
+                {skills.map(({ id, lable }) => {
+                    return (
+                        <TechSkillsItems
+                            key={id}
+                            lable={lable}
+                        />
+                    );
+                })}
+            </SkillsList>    
+            </TechSkillsContainer>
+            <TechSkillsContainer>
+                <Title>
+                    Languages
                 </Title>
                 <SkillsText>
-                   Ukrainian - native
+                    Ukrainian - native
                 </SkillsText>
                 <SkillsText>
-                   English - Intermediate
+                    English - intermediate
                 </SkillsText>
-
-            </TechSkillsContainer></>
+            </TechSkillsContainer>
+        </>
     );
 }
 
